@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: C:\Users\vince\Documents\GitHub\productCatalog_v3
+    working_directory: https://github.com/VincentBard/productCatalog_v3
     docker:
       - image: circleci/android:api-28
     environment:
